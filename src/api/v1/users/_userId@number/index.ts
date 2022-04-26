@@ -1,18 +1,6 @@
-type User = {
-  id: number
-  name: string
-}
+type User = { id: number, name: string };
 
 export type Methods = {
-  get: {
-    resBody: User
-  }
-
-  put: {
-    reqBody: {
-      name: string
-    }
-
-    resBody: User
-  }
-}
+	get: { resBody: User },
+	put: { reqBody: { name: string }, resBody: User },
+};

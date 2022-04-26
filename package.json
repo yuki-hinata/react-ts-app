@@ -31,7 +31,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "api:build": "aspida",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "rome format ."
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +53,8 @@
     ]
   },
   "devDependencies": {
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "prettier": "2.6.2",
+    "rome": "^0.4.2-next"
   }
 }

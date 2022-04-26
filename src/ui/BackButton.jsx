@@ -1,13 +1,11 @@
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
 export const BackButton = () => {
-  const history = useNavigate();
+	const history = useNavigate();
 
-const Back = () => {
-  history('/')
-}
+	const Back = () => {
+		history("/");
+	};
 
-return (
-  <button onClick={Back}>戻る</button>
-)
-}
+	return (<button onClick={Back}>戻る</button>);
+};
